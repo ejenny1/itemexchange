@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BE104891A615268003E73D7 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE104881A615268003E73D7 /* CollectionViewController.m */; };
+		0BE1048C1A6159EB003E73D7 /* custumCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE1048B1A6159EB003E73D7 /* custumCollectionViewCell.m */; };
+		0BE1048F1A615BCE003E73D7 /* cellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE1048E1A615BCE003E73D7 /* cellBackground.m */; };
 		0BF523FB1A60C5EB00F792B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF523FA1A60C5EB00F792B6 /* main.m */; };
 		0BF523FE1A60C5EB00F792B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF523FD1A60C5EB00F792B6 /* AppDelegate.m */; };
 		0BF524011A60C5EB00F792B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF524001A60C5EB00F792B6 /* ViewController.m */; };
@@ -44,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BE104871A615268003E73D7 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		0BE104881A615268003E73D7 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		0BE1048A1A6159EB003E73D7 /* custumCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = custumCollectionViewCell.h; sourceTree = "<group>"; };
+		0BE1048B1A6159EB003E73D7 /* custumCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = custumCollectionViewCell.m; sourceTree = "<group>"; };
+		0BE1048D1A615BCE003E73D7 /* cellBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellBackground.h; sourceTree = "<group>"; };
+		0BE1048E1A615BCE003E73D7 /* cellBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellBackground.m; sourceTree = "<group>"; };
 		0BF523F51A60C5EB00F792B6 /* itemexchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = itemexchange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF523F91A60C5EB00F792B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BF523FA1A60C5EB00F792B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -111,6 +120,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BE104861A615203003E73D7 /* collection view */ = {
+			isa = PBXGroup;
+			children = (
+				0BE104871A615268003E73D7 /* CollectionViewController.h */,
+				0BE104881A615268003E73D7 /* CollectionViewController.m */,
+				0BE1048A1A6159EB003E73D7 /* custumCollectionViewCell.h */,
+				0BE1048B1A6159EB003E73D7 /* custumCollectionViewCell.m */,
+				0BE1048D1A615BCE003E73D7 /* cellBackground.h */,
+				0BE1048E1A615BCE003E73D7 /* cellBackground.m */,
+			);
+			name = "collection view";
+			sourceTree = "<group>";
+		};
 		0BF523EC1A60C5EB00F792B6 = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +230,7 @@
 			children = (
 				0BF524001A60C5EB00F792B6 /* ViewController.m */,
 				0BF523FF1A60C5EB00F792B6 /* ViewController.h */,
+				0BE104861A615203003E73D7 /* collection view */,
 			);
 			name = login;
 			sourceTree = "<group>";
@@ -313,9 +336,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BF524011A60C5EB00F792B6 /* ViewController.m in Sources */,
+				0BE1048F1A615BCE003E73D7 /* cellBackground.m in Sources */,
 				0BF523FE1A60C5EB00F792B6 /* AppDelegate.m in Sources */,
 				0BF524431A60CB3D00F792B6 /* SignupViewController.m in Sources */,
+				0BE104891A615268003E73D7 /* CollectionViewController.m in Sources */,
 				0BF523FB1A60C5EB00F792B6 /* main.m in Sources */,
+				0BE1048C1A6159EB003E73D7 /* custumCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +542,7 @@
 				0BF5241A1A60C5EB00F792B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BF5241B1A60C5EB00F792B6 /* Build configuration list for PBXNativeTarget "itemexchangeTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +551,7 @@
 				0BF5241D1A60C5EB00F792B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
