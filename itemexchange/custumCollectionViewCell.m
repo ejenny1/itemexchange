@@ -16,7 +16,7 @@
     {
         // change to our custom selected background view
         cellBackground *backgroundView = [[cellBackground alloc] initWithFrame: CGRectMake(0,0,20,20)];
-        self.selectedBackgroundView = backgroundView;
+        self.backgroundView = backgroundView;
     }
     return self;
 }

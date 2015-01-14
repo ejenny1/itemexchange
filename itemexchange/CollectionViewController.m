@@ -61,9 +61,11 @@ static NSString * const reuseIdentifier = @"Cell";
     custumCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
     
     // make the cell's title the actual NSIndexPath value
-    cell.backgroundColor = [UIColor blackColor];
+  //  cell.backgroundColor = [UIColor blackColor];
     // Configure the cell
-    
+  //  cellBackground *backgroundView = [[cellBackground alloc] initWithFrame: CGRectMake(0,0,20,20)];
+   // cell.backgroundView = backgroundView;
+   //cell.selectedBackgroundView = backgroundView;
     return cell;
 }
 
